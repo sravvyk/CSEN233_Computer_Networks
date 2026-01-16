@@ -1,0 +1,20 @@
+This is a test text file for the file copy program.
+
+It contains multiple lines of text to test the copying functionality.
+Both the library functions and system calls approaches should be able
+to copy this file successfully.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.
+
+This file will be used to test:
+1. Text file copying
+2. Performance measurement
+3. Accuracy of the copy operation
+
+Special characters: !@#$%^&*()_+-=[]{}|;:',.<>?/~`
+
+End of test file.

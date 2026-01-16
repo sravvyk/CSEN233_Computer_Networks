@@ -1,0 +1,92 @@
+[sganta@linux10620 step3]$ make test
+\n=========================================
+Testing Library Functions Approach
+=========================================
+\n--- Test 1: Copying text file ---
+./copy_functions test_text.txt output_text_functions.txt
+
+========================================
+File Copy Complete (Library Functions)
+========================================
+Source:      test_text.txt
+Destination: output_text_functions.txt
+Bytes copied: 747 bytes
+Time taken:   0.000182 seconds
+========================================
+
+\n--- Test 2: Copying binary file ---
+./copy_functions test_binary.bin output_binary_functions.bin
+
+========================================
+File Copy Complete (Library Functions)
+========================================
+Source:      test_binary.bin
+Destination: output_binary_functions.bin
+Bytes copied: 10485760 bytes
+Time taken:   0.007378 seconds
+========================================
+
+\n--- Test 3: Copying PDF file ---
+./copy_functions CN_step3.pdf output_pdf_functions.pdf
+
+========================================
+File Copy Complete (Library Functions)
+========================================
+Source:      CN_step3.pdf
+Destination: output_pdf_functions.pdf
+Bytes copied: 508798 bytes
+Time taken:   0.000637 seconds
+========================================
+
+\n=========================================
+Testing System Calls Approach
+=========================================
+\n--- Test 1: Copying text file ---
+./copy_syscalls test_text.txt output_text_syscalls.txt
+
+========================================
+File Copy Complete (System Calls)
+========================================
+Source:      test_text.txt
+Destination: output_text_syscalls.txt
+Bytes copied: 747 bytes
+Time taken:   0.000156 seconds
+========================================
+
+\n--- Test 2: Copying binary file ---
+./copy_syscalls test_binary.bin output_binary_syscalls.bin
+
+========================================
+File Copy Complete (System Calls)
+========================================
+Source:      test_binary.bin
+Destination: output_binary_syscalls.bin
+Bytes copied: 10485760 bytes
+Time taken:   0.005866 seconds
+========================================
+
+\n--- Test 3: Copying PDF file ---
+./copy_syscalls CN_step3.pdf output_pdf_syscalls.pdf
+
+========================================
+File Copy Complete (System Calls)
+========================================
+Source:      CN_step3.pdf
+Destination: output_pdf_syscalls.pdf
+Bytes copied: 508798 bytes
+Time taken:   0.000358 seconds
+========================================
+
+\n=========================================
+Verifying file integrity
+=========================================
+[OK] Text file (functions) copied correctly
+[OK] Text file (syscalls) copied correctly
+[OK] Binary file (functions) copied correctly
+[OK] Binary file (syscalls) copied correctly
+[OK] PDF file (functions) copied correctly
+[OK] PDF file (syscalls) copied correctly
+\n=========================================
+All tests passed!
+=========================================
+[sganta@linux10620 step3]$
